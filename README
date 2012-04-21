@@ -1,0 +1,35 @@
+================================================================================
+Switching to ActionBarSherlock
+================================================================================
+This week I was having problems getting TabNavigation on pre-3.0 devices to work
+using the android-14 ActionBarCompat library. Decided to give ActionBarSherlock 
+a try and glad that I did. From now on I will be using ActionBarSherlock instead
+of ActionBarCompat because:
+	1) Download and setup create an ActionBarSherlock Library which is easy to
+		incorporate into a new Android project. The way I was using ActionBar-
+		Compat was to add all  the individual folders and files as in the 
+		sample. Here's a good YouTube setup video:
+			http://www.youtube.com/watch?v=4GJ6yY1lNNY
+	2) ActionBarSherlock comes with TabNav code where ActionBarCompat does not.
+	3) ActionBarSherlock so far is very reliable and has good support.
+	4) Lots of samples with download:
+		http://actionbarsherlock.com/		
+	
+================================================================================
+ActionBar Project
+================================================================================
+Demonstrates the 3 major ActionBar modes:
+	1) Tab
+	2) List
+	3) Standard
+Each mode sample is a separate SherlockFragmentActivity.
+All 3 modes have 3 options. Each option start a different SherlockFragment.	
+Each mode sample's app icon acts as a Home button to return the sample back to
+its starting point.
+
+================================================================================
+ListDetailsTemplateABS
+================================================================================
+The latest ListDetailsTemplate converted to use ActionBarSherlock.
+	
+	

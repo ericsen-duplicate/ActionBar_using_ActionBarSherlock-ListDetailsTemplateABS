@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is res/layout/main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#8b8989" />
+
+    <TextView
+        android:id="@+id/etMessages"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" >
+    </TextView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#8b8989" />
+
+    <fragment
+        android:id="@+id/listOptions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="dev.ronlemire.listdetailstemplateabs.ListViewFragment" />
+
+</LinearLayout>

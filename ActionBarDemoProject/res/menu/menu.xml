@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+        <!-- This group uses the default category. -->
+    <group android:id="@+id/menuGroup_Main">
+
+        <item android:id="@+id/menu_action_fragment1"
+            android:title="Action Fragment1" 
+            android:icon="@drawable/creep001" 
+            android:showAsAction="ifRoom"/>
+            
+        <item android:id="@+id/menu_action_fragment2"
+            android:title="Action Fragment2" 
+            android:icon="@drawable/creep002" 
+            android:showAsAction="ifRoom"/>
+            
+        <item android:id="@+id/menu_action_fragment3"
+            android:title="Action Fragment3" 
+            android:icon="@drawable/creep003" 
+            android:showAsAction="ifRoom"/>
+            
+        <item android:id="@+id/menu_invoke_fragment1"
+            android:title="Invoke Fragment1"
+            />
+            
+        <item android:id="@+id/menu_invoke_fragment2"
+            android:title="Invoke Fragment2"
+            />
+            
+        <item android:id="@+id/menu_invoke_fragment3"
+            android:title="Invoke Fragment3"
+            />
+            
+        <item android:id="@+id/menu_da_clear"
+            android:orderInCategory="10"
+            android:title="clear" />
+            
+    </group>
+
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is res/layout-land/main.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555555"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#8b8989" />
+
+    <TextView
+        android:id="@+id/etMessages"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" >
+    </TextView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#8b8989" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#555555"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/listOptions"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            class="dev.ronlemire.listdetailstemplateabs.ListViewFragment"
+            android:background="#00550033" />
+
+        <FrameLayout
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:background="#8b8989" />
+
+        <FrameLayout
+            android:id="@+id/details"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="4" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.ronlemire.actionbar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:icon="@drawable/cool"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock" >
+        <activity
+            android:name=".ActionBarActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="dev.ronlemire.actionbar.ActionBarActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="dev.ronlemire.actionbar.TabNavActivity"
+            android:label="TabNavActivity" >
+            <intent-filter>
+                <action android:name="dev.ronlemire.actionbar.TabNavActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="dev.ronlemire.actionbar.ListNavActivity"
+            android:label="ListNavActivity" >
+            <intent-filter>
+                <action android:name="dev.ronlemire.actionbar.ListNavActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="dev.ronlemire.actionbar.StandardNavActivity"
+            android:label="StandardNavActivity" >
+            <intent-filter>
+                <action android:name="dev.ronlemire.actionbar.StandardNavActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

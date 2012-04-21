@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_titles">
+        <item>TabNav</item>
+        <item>ListNav</item>
+        <item>StandardNav</item>
+    </string-array>
+    <string-array name="list_activities">
+        <item>dev.ronlemire.actionbar.TabNavActivity</item>
+        <item>dev.ronlemire.actionbar.ListNavActivity</item>
+        <item>dev.ronlemire.actionbar.StandardNavActivity</item>
+    </string-array>
+    <string-array name="list_fragments">
+        <item>Fragment1</item>
+        <item>Fragment2</item>
+        <item>Fragment3</item>
+    </string-array>
+
+</resources>

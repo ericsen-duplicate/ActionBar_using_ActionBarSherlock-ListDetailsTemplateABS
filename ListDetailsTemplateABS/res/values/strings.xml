@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ListDetailsTemplateABS!</string>
+    <string name="app_name">ListDetailsTemplateABS</string>
+    <string name="detailsFragment1">DetailsFragment1</string>
+    <string name="detailsFragment2">DetailsFragment2</string>
+    <color name="white">#FFFFFF</color>
+        
+	<string name="menu_refresh">Refresh</string>
+	<string name="menu_search">Search</string>
+	<string name="menu_share">Share</string>
+</resources>
